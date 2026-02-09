@@ -123,3 +123,30 @@ main {
     }
   }
 }
+
+#robot-humanoide {
+  h1 {
+    text-align: center;
+    font-size: 50px;
+  }
+  #optimus {
+    display: flex;
+    flex-direction: column;
+    #optimus-img {
+      width: 100%;
+      padding: 20px;
+      h2 {
+        text-align: center;
+        font-size: 40px;
+      }
+      img {
+        width: 100%;
+      }
+    }
+    #optimus-txt {
+      text-align: center;
+      width: 100%;
+      padding: 20px;
+    }
+  }
+}
