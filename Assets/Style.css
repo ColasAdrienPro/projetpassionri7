@@ -1,0 +1,125 @@
+body {
+  background-color: grey;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  h1 {
+    text-align: center;
+    margin: 50px;
+    font-size: 50px;
+  }
+  #Presantation {
+    #first-article {
+      display: flex;
+      flex-direction: column;
+      #img-first-article {
+        width: 100%;
+        padding: 20px;
+        img {
+          width: 100%;
+        }
+      }
+      #texte-first-article {
+        width: 100%;
+        padding: 20px;
+        h2 {
+          text-align: center;
+        }
+      }
+    }
+    #secondary-article {
+      display: flex;
+      flex-direction: column;
+
+      #img-secondary-article {
+        width: 100%;
+        padding: 20px;
+        img {
+          width: 100%;
+        }
+      }
+      #texte-secondary-article {
+        width: 100%;
+        padding: 20px;
+        h2 {
+          text-align: center;
+        }
+      }
+    }
+    #third-article {
+      display: flex;
+      flex-direction: column;
+      #img-third-article {
+        width: 100%;
+        padding: 20px;
+        img {
+          width: 100%;
+        }
+      }
+      #text-third-article {
+        width: 100%;
+        padding: 20px;
+        h2 {
+          text-align: center;
+        }
+      }
+    }
+    #fourth-article {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      #texte-fourth-article {
+        width: 100%;
+        padding: 20px;
+        h2 {
+          text-align: center;
+        }
+      }
+      #img-link-first-page {
+        width: 100%;
+        padding: 20px;
+        img {
+          width: 100%;
+        }
+      }
+      #img-link-secondary-page {
+        width: 100%;
+        padding: 20px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+#robot-non-humanoide {
+  h1 {
+    text-align: center;
+    font-size: 50px;
+  }
+  #roomba {
+    display: flex;
+    flex-direction: column;
+    #roomba-img {
+      width: 100%;
+      padding: 20px;
+      h2 {
+        text-align: center;
+        font-size: 40px;
+      }
+      img {
+        width: 100%;
+      }
+    }
+    #roomba-txt {
+      text-align: center;
+      width: 100%;
+      padding: 20px;
+    }
+  }
+}
